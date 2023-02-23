@@ -1,0 +1,28 @@
+:root {
+    font-size: 62.5%;
+
+    --primary-color: #000000;
+    --secondary-color: #A9A9A9;
+    --bg-color: #FAFAFA;
+    
+    --fs-xlg: 3.6rem;
+    --fs-lg: 1.8rem;
+    --fs-md: 1.4rem;
+    --fs-sm: 1.2rem;
+    --fs-xsm: 1rem;
+
+    --f-family-poppins: 'Poppins', sans-serif;
+    --f-family-pt-serif: 'PT Serif', serif;
+    --f-family-montserrat: 'Montserrat', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1.6;
+    background-color: var(--bg-color);
+}
